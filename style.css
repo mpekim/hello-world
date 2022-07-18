@@ -1,0 +1,22 @@
+.codeButton{
+    color: #32cd32;
+    background-color: #666666;
+
+    font-weight: bold;
+    font-family: Georgia;
+
+    border-radius: 45px;
+}
+
+.ideMain{
+    background-color: #ACACAC;
+
+    border: solid;
+    border-color: #000000;
+    border-width: 5px;
+
+    position: absolute;
+    text-align: center;
+
+    font-family: Arial;
+}
