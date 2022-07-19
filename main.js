@@ -1,3 +1,18 @@
+/************************
+ * Author: Mike Morley
+ * Date: July 18th, 2022
+ * 
+ * Time Spent: About 30 minutes.
+ * 
+ * Credited Sources of Help:
+ * - Sololearn.com (Website)
+ * 
+ * Program Purpose:
+ * - JS section of a makeshift JavaScript IDE,
+ * made using HTML, CSS and JS files.
+ * 
+ ************************/
+
 function helloWorld()
 {
     alert("Hello World.");
@@ -19,4 +34,22 @@ function helloWorld()
     console.log("Good. Glad to see that the console can be found using F12.");
 
     console.log(dog);
+    document.write("Let's see if this shows up on-screen.");
+}
+// Functions below are meant to be implemented as Object methods
+// at some point.
+
+function getLegs(dog)
+{
+    return dog.legs;
+}
+
+function getName(dog)
+{
+    return dog.name;
+}
+
+function getHappy(dog)
+{
+    return dog.isHappy;
 }
