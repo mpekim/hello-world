@@ -38,12 +38,19 @@ function helloWorld()
 }
 // Functions below are meant to be implemented as Object methods
 // at some point.
+//-----------------------------------------------------------------------------
 
+// Pre-Condition: This function accepts a "dog" parameter.
+// Post-Condition: The legs value of the "dog" object
+// will be returned.
 function getLegs(dog)
 {
     return dog.legs;
 }
 
+// Pre-Condition: This function accepts a "dog" parameter.
+// Post-Condition: The name value of the "dog" object
+// will be returned.
 function getName(dog)
 {
     return dog.name;
