@@ -60,3 +60,27 @@ function getHappy(dog)
 {
     return dog.isHappy;
 }
+
+// Pre-Condition: This function accepts a "newLegs" parameter.
+// Post-Condition: The legs value of the "dog" object
+// will be set to the input value.
+function setLegs(newLegs)
+{
+    dog.legs = newLegs;
+}
+
+// Pre-Condition: This function accepts a "newName" parameter.
+// Post-Condition: The name value of the "dog" object will
+// be set to the input value.
+function setName(newName)
+{
+    dog.name = newName;
+}
+
+// Pre-Condition: This function accepts a "newHappy" parameter.
+// Post-Condition: The isHappy value of the "dog" object
+// will be set to the input value.
+function setHappy(newHappy)
+{
+    dog.isHappy = newHappy;
+}
