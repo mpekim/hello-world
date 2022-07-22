@@ -8,6 +8,26 @@
     border-radius: 45px;
 }
 
+.codebuttonRed{
+    color: #FF0000;
+    background-color: #000000;
+
+    font-weight: bold;
+    font-family: Arial;
+
+    border-radius: 45px;
+}
+
+.codeButtonBlue{
+    color: #0000FF;
+    background-color: #000000;
+
+    font-weight: bold;
+    font-family: Arial;
+
+    border-radius: 45px;
+}
+
 .ideMain{
     background-color: #ACACAC;
 
@@ -19,4 +39,9 @@
     text-align: center;
 
     font-family: Arial;
+}
+
+.centerText{
+    position: absolute;
+    text-align: center;
 }
