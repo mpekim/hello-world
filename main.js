@@ -11,6 +11,11 @@
  * - JS section of a makeshift JavaScript IDE,
  * made using HTML, CSS and JS files.
  * 
+ * Note: As seen in the HTML output, the 
+ * "traditional" console can be accessed on
+ * the browser by pressing F12 (this will
+ * open up Development tools.)
+ * 
  ************************/
 
 function helloWorld()
