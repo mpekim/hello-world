@@ -40,6 +40,7 @@ function helloWorld()
 
     console.log(dog);
     document.write("Let's see if this shows up on-screen.");
+    document.write(dog);
 }
 // Functions below are meant to be implemented as Object methods
 // at some point.
