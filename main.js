@@ -18,6 +18,12 @@
  * 
  ************************/
 
+class Dog{
+    constructor(){
+        // Default constructor.
+    }
+}
+
 function helloWorld()
 {
     alert("Hello World.");
