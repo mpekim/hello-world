@@ -18,5 +18,8 @@ public class helloWorld
     {
         System.out.println("Hello World! I have set up a repository within Github.");
         // Single-line comment within Java program.
+        /*
+         * Multi-Line comment within the Java program.
+         */
     }
 }
