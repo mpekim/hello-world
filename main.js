@@ -21,6 +21,7 @@
 class Dog{
     constructor(){
         // Default constructor.
+        // Make sure that the "this" keyword is used when assigning values.
     }
 }
 
@@ -33,7 +34,13 @@ function helloWorld()
     var dog = {
         legs: 4,
         name: "Sparky",
-        ishappy: true
+        isHappy: true
+    }
+
+    var cat = {
+        legs: 4,
+        name: "Lilly",
+        isHappy: false;
     }
 
     alert("Dog name: " + dog.name);
