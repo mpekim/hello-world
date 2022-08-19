@@ -49,8 +49,8 @@ function helloWorld()
 
     alert("New Dog name: " + dog.name);
 
-    console.log("Testing...");
-    console.log("Good. Glad to see that the console can be found using F12.");
+    //console.log("Testing...");
+    //console.log("Good. Glad to see that the console can be found using F12.");
 
     console.log(dog);
     document.write("Let's see if this shows up on-screen.");
