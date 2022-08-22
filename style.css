@@ -35,10 +35,39 @@
     border-color: #000000;
     border-width: 5px;
 
-    position: absolute;
+    position: relative;
     text-align: center;
 
     font-family: Arial;
+}
+
+.ideBug{
+    display: grid;
+    grid-template-areas:
+    "major minor warning";
+    border: solid;
+    border-color: #000000;
+    border-width: 3px;
+
+    text-align: center;
+
+    font-family: Arial;
+}
+
+.ideOutput{
+    
+}
+
+.major{
+    background-color: #FF0000;
+}
+
+.minor{
+    background-color: #FF7733;
+}
+
+.warning{
+    background-color: #FFFF00;
 }
 
 .centerText{

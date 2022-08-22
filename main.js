@@ -19,9 +19,36 @@
  ************************/
 
 class Dog{
-    constructor(){
+    constructor(legs, name, isHappy){
         // Default constructor.
         // Make sure that the "this" keyword is used when assigning values.
+        this.legs = legs;
+        this.name = name;
+        this.isHappy = isHappy;
+    }
+
+    getLegs(){
+        return this.legs;
+    }
+
+    getName(){
+        return this.name;
+    }
+
+    getHappy(){
+        return this.isHappy;
+    }
+
+    setLegs(legs){
+        this.legs = legs;
+    }
+
+    setName(name){
+        this.name = name;
+    }
+
+    setHappy(isHappy){
+        this.isHappy = isHappy;
     }
 }
 
@@ -31,7 +58,7 @@ function helloWorld()
     alert("Hello World.");
     alert("Due to the console not running as intended, this is how the IDE will present output.");
 
-    var dog = {
+    /*var dog = {
         legs: 4,
         name: "Sparky",
         isHappy: true
@@ -40,7 +67,7 @@ function helloWorld()
     var cat = {
         legs: 4,
         name: "Lilly",
-        isHappy: false;
+        isHappy: false
     }
 
     alert("Dog name: " + dog.name);
@@ -54,7 +81,15 @@ function helloWorld()
 
     console.log(dog);
     document.write("Let's see if this shows up on-screen.");
-    document.write(dog);
+    document.write(dog);*/
+
+    // This is all well and good, but let's work on the class practice.
+
+    var fido = new Dog(4, "Fido", true);
+
+    alert("Fido's leg count: " + fido.getLegs());
+    fido.setLegs(16);
+    alert("new leg count: " + fido.getLegs());
 }
 // Functions below are meant to be implemented as Object methods
 // at some point.
