@@ -52,6 +52,8 @@ class Dog{
     }
 }
 
+// Dog class.
+
 // Function acting as the setup for the IDE.
 function helloWorld()
 {
