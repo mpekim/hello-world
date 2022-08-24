@@ -55,7 +55,17 @@
 }
 
 .ideOutput{
-    
+    display: grid;
+    grid-template-areas:
+    "output output";
+
+    border: solid;
+    border-color: #00CCFF;
+    border-width: 3px;
+
+    text-align: center;
+
+    font-family: Helvetica;
 }
 
 .major{

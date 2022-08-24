@@ -50,6 +50,12 @@ class Dog{
     setHappy(isHappy){
         this.isHappy = isHappy;
     }
+    
+    present(){
+        document.write("Name: " + this.name);
+        document.write("Leg count: " + this.legs);
+        document.write("Are they happy: " + this.isHappy);
+    }
 }
 
 // Dog class.
@@ -92,6 +98,8 @@ function helloWorld()
     alert("Fido's leg count: " + fido.getLegs());
     fido.setLegs(16);
     alert("new leg count: " + fido.getLegs());
+    fido.present();
+    
 }
 // Functions below are meant to be implemented as Object methods
 // at some point.
