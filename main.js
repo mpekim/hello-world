@@ -51,6 +51,8 @@ class Dog{
         this.isHappy = isHappy;
     }
     
+    // Pre-Condition: This method accepts no arguments.
+    // Post-Condition: The Dog object will be presented on-screen.
     present(){
         document.write("Name: " + this.name);
         document.write("Leg count: " + this.legs);
