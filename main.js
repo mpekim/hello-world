@@ -57,6 +57,7 @@ class Dog{
         document.write("Name: " + this.name);
         document.write("Leg count: " + this.legs);
         document.write("Are they happy: " + this.isHappy);
+        // Inserting comment for vacation purposes.
     }
 }
 
