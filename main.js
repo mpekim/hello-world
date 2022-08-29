@@ -27,6 +27,10 @@ class Dog{
         this.isHappy = isHappy;
     }
 
+    // Is creating a default constructor possible in JS?
+    // Research to find out, then create a default (no argument)
+    // Constructor if possible.
+
     getLegs(){
         return this.legs;
     }
