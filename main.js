@@ -73,7 +73,7 @@ function helloWorld()
     alert("Hello World.");
     alert("Due to the console not running as intended, this is how the IDE will present output.");
 
-    /*var dog = {
+    var dog = {
         legs: 4,
         name: "Sparky",
         isHappy: true
@@ -96,7 +96,7 @@ function helloWorld()
 
     console.log(dog);
     document.write("Let's see if this shows up on-screen.");
-    document.write(dog);*/
+    document.write(dog);
 
     // This is all well and good, but let's work on the class practice.
 
