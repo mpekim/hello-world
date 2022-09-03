@@ -106,6 +106,9 @@ function helloWorld()
     fido.setLegs(16);
     alert("new leg count: " + fido.getLegs());
     fido.present();
+
+    var defaultDog = new Dog();
+    defaultDog.present(defaultDog);
     
 }
 // Functions below are meant to be implemented as Object methods
@@ -156,3 +159,5 @@ function setHappy(newHappy)
 {
     dog.isHappy = newHappy;
 }
+// End of the functions for the Dog object.
+//--------------------------------------------------------------------
