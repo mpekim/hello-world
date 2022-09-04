@@ -70,10 +70,14 @@
 
 .major{
     background-color: #FF0000;
+
+    font-weight: bold;
 }
 
 .minor{
     background-color: #FF7733;
+    
+    font-style: italic;
 }
 
 .warning{
