@@ -160,4 +160,3 @@ function setHappy(newHappy)
     dog.isHappy = newHappy;
 }
 // End of the functions for the Dog object.
-//--------------------------------------------------------------------
