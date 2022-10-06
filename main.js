@@ -62,6 +62,9 @@ class Dog{
         document.write("Leg count: " + this.legs);
         document.write("Are they happy: " + this.isHappy);
         // Inserting comment for vacation purposes.
+        console.log("Name: " + this.name);
+        console.log("Leg count: " + this.legs);
+        console.log("Are they happy: " + thisisHappy);
     }
 }
 
@@ -160,3 +163,18 @@ function setHappy(newHappy)
     dog.isHappy = newHappy;
 }
 // End of the functions for the Dog object.
+
+//--------------------------------------------------------------------------------------
+function forLoopInput(input)
+{
+    for (var i = 0; i < input; i++)
+    {
+        console.log(i);
+    }
+}
+
+//--------------------------------------------------------------------------------------
+function fibonacci(int n)
+{
+    
+}
