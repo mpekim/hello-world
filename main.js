@@ -174,7 +174,32 @@ function forLoopInput(input)
 }
 
 //--------------------------------------------------------------------------------------
-function fibonacci(int n)
+function fibonacci(n)
 {
-    
+    if (n == 0)
+    {
+        // Base case 1.
+        return 1;
+    }
+
+    if (n == 1)
+    {
+        // Base case 2.
+        return 1;
+    }
+    return fibonacci(n-1) + fibonacci(n-2);
+}
+
+function isPalindrome(message)
+{
+    for (var i = 0; i < message.length; i++)
+    {
+        if (message[i] != message[message.length - i])
+        {
+            console.log("Message is not a plaindrome.");
+            return;
+        }
+    }
+    console.log("Message is a palindrome.");
+    return;
 }
