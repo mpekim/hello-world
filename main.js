@@ -64,7 +64,7 @@ class Dog{
         // Inserting comment for vacation purposes.
         console.log("Name: " + this.name);
         console.log("Leg count: " + this.legs);
-        console.log("Are they happy: " + thisisHappy);
+        console.log("Are they happy: " + this.isHappy);
     }
 }
 
@@ -73,6 +73,7 @@ class Dog{
 // Function acting as the setup for the IDE.
 function helloWorld()
 {
+    /*
     alert("Hello World.");
     alert("Due to the console not running as intended, this is how the IDE will present output.");
 
@@ -94,12 +95,14 @@ function helloWorld()
 
     alert("New Dog name: " + dog.name);
 
+
     //console.log("Testing...");
     //console.log("Good. Glad to see that the console can be found using F12.");
 
     console.log(dog);
     document.write("Let's see if this shows up on-screen.");
     document.write(dog);
+    */
 
     // This is all well and good, but let's work on the class practice.
 
@@ -112,6 +115,11 @@ function helloWorld()
 
     var defaultDog = new Dog();
     defaultDog.present(defaultDog);
+
+    var message = "hello";
+    console.log("Message before shift: " + message);
+    message = changeString(message, 1);
+    console.log("Message after shift: " + message);
     
 }
 // Functions below are meant to be implemented as Object methods
@@ -202,4 +210,14 @@ function isPalindrome(message)
     }
     console.log("Message is a palindrome.");
     return;
+}
+
+function changeString(message, shift)
+{
+    for (var i = 0; i < message.length; i++)
+    {
+        message[i] = message[i] + shift;
+    }
+
+    return message;
 }
