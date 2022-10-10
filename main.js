@@ -221,3 +221,8 @@ function changeString(message, shift)
 
     return message;
 }
+
+function powerRule(coef, power)
+{
+    console.log("Derivative of " + coef + "x^" + power + " via Power Rule: " + (coef*power) + "x^" + (power - 1));
+}
