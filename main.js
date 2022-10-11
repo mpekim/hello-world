@@ -212,6 +212,9 @@ function isPalindrome(message)
     return;
 }
 
+// Pre-Condition: This function accepts two arguments, a message
+// and an amount to shift the message by.
+// Post-Condition: The message string is modified by the shift value.
 function changeString(message, shift)
 {
     for (var i = 0; i < message.length; i++)
@@ -222,6 +225,9 @@ function changeString(message, shift)
     return message;
 }
 
+// Pre-Condition: This function accepts two arugments, a coefficient
+// and a power of a polynomial value.
+// Post-Condition: The power rule is applied to the polynomial value.
 function powerRule(coef, power)
 {
     console.log("Derivative of " + coef + "x^" + power + " via Power Rule: " + (coef*power) + "x^" + (power - 1));
