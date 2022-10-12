@@ -120,6 +120,8 @@ function helloWorld()
     console.log("Message before shift: " + message);
     message = changeString(message, 1);
     console.log("Message after shift: " + message);
+
+    console.log(factorial(3));
     
 }
 // Functions below are meant to be implemented as Object methods
@@ -231,4 +233,18 @@ function changeString(message, shift)
 function powerRule(coef, power)
 {
     console.log("Derivative of " + coef + "x^" + power + " via Power Rule: " + (coef*power) + "x^" + (power - 1));
+}
+
+function factorial(n)
+{
+    if (n === 0){
+        return 1;
+    }
+
+    if (n === 1){
+        return 1;
+    }
+    else{
+        return n * factorial(n-1);
+    }
 }
