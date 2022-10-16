@@ -223,6 +223,7 @@ function changeString(message, shift)
     {
         message[i] = message[i] + shift;
     }
+    // As of right now, this code does not work as intended.
 
     return message;
 }

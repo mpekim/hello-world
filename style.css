@@ -93,9 +93,9 @@
 }
 
 .flexContainer{
-
+    display: flex;
 }
 
 .flexItem{
-
+    flex: 0 1 auto;
 }
