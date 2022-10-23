@@ -99,3 +99,11 @@
 .flexItem{
     flex: 0 1 auto;
 }
+
+.gridContainer{
+    display: grid;
+}
+
+.gridItem{
+    grid-area: item;
+}
