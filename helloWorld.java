@@ -21,6 +21,5 @@ public class helloWorld
         /*
          * Multi-Line comment within the Java program.
          */
-         
     }
 }
