@@ -175,6 +175,9 @@ function setHappy(newHappy)
 // End of the functions for the Dog object.
 
 //--------------------------------------------------------------------------------------
+// Pre-Condition: This function accepts an argument, "input", for the limit
+// of the "for" loop.
+// Post-Condition: The numbers up to the input limit will be printed.
 function forLoopInput(input)
 {
     for (var i = 0; i < input; i++)
