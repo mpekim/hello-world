@@ -67,8 +67,14 @@ class Dog{
         console.log("Are they happy: " + this.isHappy);
     }
 }
-
 // Dog class.
+
+class Animal{
+    constructor(name, legs, isHappy){
+
+    }
+}
+// Animal class.
 
 // Function acting as the setup for the IDE.
 function helloWorld()
@@ -189,13 +195,13 @@ function forLoopInput(input)
 //--------------------------------------------------------------------------------------
 function fibonacci(n)
 {
-    if (n == 0)
+    if (n === 0)
     {
         // Base case 1.
         return 1;
     }
 
-    if (n == 1)
+    if (n === 1)
     {
         // Base case 2.
         return 1;
