@@ -71,8 +71,15 @@ class Dog{
 
 class Animal{
     constructor(name, legs, isHappy){
-
+        this.name = name;
+        this.legs = legs;
+        this.isHappy = isHappy;
     }
+    makeSound(){
+        console.log("Default animal sound.");
+    }
+    // Work on creating Animal as the "Basic/Super" class,
+    // and having Dog extend/inherit on the Animal class.
 }
 // Animal class.
 
