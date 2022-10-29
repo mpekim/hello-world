@@ -80,6 +80,29 @@ class Animal{
     }
     // Work on creating Animal as the "Basic/Super" class,
     // and having Dog extend/inherit on the Animal class.
+    getName(){
+        return this.legs;
+    }
+
+    getLegs(){
+        return this.name;
+    }
+
+    getIsHappy(){
+        return this.isHappy;
+    }
+
+    setName(newName){
+        this.name = newName;
+    }
+
+    setLegs(newLegs){
+        this.legs = newLegs;
+    }
+    
+    setIsHappy(newIsHappy){
+        this.isHappy = newIsHappy;
+    }
 }
 // Animal class.
 
