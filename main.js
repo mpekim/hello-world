@@ -31,30 +31,6 @@ class Dog{
     // Research to find out, then create a default (no argument)
     // Constructor if possible.
 
-    getLegs(){
-        return this.legs;
-    }
-
-    getName(){
-        return this.name;
-    }
-
-    getHappy(){
-        return this.isHappy;
-    }
-
-    setLegs(legs){
-        this.legs = legs;
-    }
-
-    setName(name){
-        this.name = name;
-    }
-
-    setHappy(isHappy){
-        this.isHappy = isHappy;
-    }
-    
     // Pre-Condition: This method accepts no arguments.
     // Post-Condition: The Dog object will be presented on-screen.
     present(){
