@@ -19,29 +19,16 @@
  ************************/
 
 class Dog{
-    constructor(legs, name, isHappy){
+    constructor(){
         // Default constructor.
         // Make sure that the "this" keyword is used when assigning values.
-        this.legs = legs;
-        this.name = name;
-        this.isHappy = isHappy;
+    
     }
 
     // Is creating a default constructor possible in JS?
     // Research to find out, then create a default (no argument)
     // Constructor if possible.
 
-    // Pre-Condition: This method accepts no arguments.
-    // Post-Condition: The Dog object will be presented on-screen.
-    present(){
-        document.write("Name: " + this.name);
-        document.write("Leg count: " + this.legs);
-        document.write("Are they happy: " + this.isHappy);
-        // Inserting comment for vacation purposes.
-        console.log("Name: " + this.name);
-        console.log("Leg count: " + this.legs);
-        console.log("Are they happy: " + this.isHappy);
-    }
 }
 // Dog class.
 
@@ -78,6 +65,12 @@ class Animal{
     
     setIsHappy(newIsHappy){
         this.isHappy = newIsHappy;
+    }
+
+    present(){
+        console.log("Animal name: " + this.name);
+        console.log("Animal Legs: " + this.legs);
+        console.log("Is the Animal happy? " + this.isHappy);
     }
 }
 // Animal class.
