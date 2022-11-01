@@ -111,7 +111,7 @@ function helloWorld()
 
     // This is all well and good, but let's work on the class practice.
 
-    var fido = new Dog(4, "Fido", true);
+    /*var fido = new Dog(4, "Fido", true);
 
     alert("Fido's leg count: " + fido.getLegs());
     fido.setLegs(16);
@@ -119,7 +119,8 @@ function helloWorld()
     fido.present();
 
     var defaultDog = new Dog();
-    defaultDog.present(defaultDog);
+    defaultDog.present(defaultDog);*/
+    // Commenting out code due to changes in Dog class.
 
     var message = "hello";
     console.log("Message before shift: " + message);
