@@ -18,7 +18,7 @@
  * 
  ************************/
 
-class Dog{
+class Dog extends Animal{
     constructor(){
         // Default constructor.
         // Make sure that the "this" keyword is used when assigning values.
@@ -122,10 +122,13 @@ function helloWorld()
     defaultDog.present(defaultDog);*/
     // Commenting out code due to changes in Dog class.
 
-    var message = "hello";
+    /*var message = "hello";
     console.log("Message before shift: " + message);
     message = changeString(message, 1);
-    console.log("Message after shift: " + message);
+    console.log("Message after shift: " + message);*/
+    // Comenting out code until messageShift() function works.
+
+    // All test code will be "commented out" and "put back in" as needed.
 
     console.log(factorial(3));
     
