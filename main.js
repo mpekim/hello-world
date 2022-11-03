@@ -20,15 +20,16 @@
 
 class Dog extends Animal{
     constructor(){
-        // Default constructor.
-        // Make sure that the "this" keyword is used when assigning values.
-    
+        // Research Extended/Inherited constructors.
     }
 
     // Is creating a default constructor possible in JS?
     // Research to find out, then create a default (no argument)
     // Constructor if possible.
-
+    
+    present(){
+        // Stub for extended version of present function.
+    }
 }
 // Dog class.
 
