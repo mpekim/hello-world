@@ -16,3 +16,8 @@ function deleteItem()
 {
     console.log("Accessing DELETE...");
 }
+
+function putItem()
+{
+    console.log("Accessing PUT...");
+}
