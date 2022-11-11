@@ -21,3 +21,8 @@ function putItem()
 {
     console.log("Accessing PUT...");
 }
+
+function updateItem()
+{
+    console.log("Accessing UPDATE...");
+}
