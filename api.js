@@ -1,3 +1,10 @@
+class Item{
+    constructor(){
+
+    }
+    // Stub for Item class.
+}
+
 function getItem()
 {
     // Function is meant to emulate the
