@@ -1,6 +1,7 @@
 class Item{
-    constructor(){
-
+    constructor(name, id){
+        this.name = name;
+        this.id = id;
     }
     // Stub for Item class.
 }
