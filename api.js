@@ -11,6 +11,14 @@ class Item{
     getId(){
         return this.id;
     }
+
+    setName(name){
+
+    }
+
+    setId(){
+        
+    }
     // Stub for Item class.
 }
 
