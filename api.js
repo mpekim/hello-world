@@ -45,10 +45,14 @@ function deleteItem()
 
 function putItem()
 {
+    // Function is meant to emulate the
+    // "PUT" endpoint of an API.
     console.log("Accessing PUT...");
 }
 
 function updateItem()
 {
+    // Function is meant to emulate the
+    // "UPDATE" endpoint of an API.
     console.log("Accessing UPDATE...");
 }
