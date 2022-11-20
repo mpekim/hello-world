@@ -13,11 +13,11 @@ class Item{
     }
 
     setName(name){
-
+        this.name = name;
     }
 
-    setId(){
-        
+    setId(id){
+        this.id = id;
     }
     // Stub for Item class.
 }
@@ -29,11 +29,12 @@ function getItem()
     console.log("Accessing GET...");
 }
 
-function postItem()
+function postItem(data)
 {
     // Function is meant to emulate the
     // "POST" endpoint of an API.
     console.log("Accessing POST...");
+    console.log("New data posted: " + data);
 }
 
 function deleteItem()
@@ -50,9 +51,10 @@ function putItem()
     console.log("Accessing PUT...");
 }
 
-function updateItem()
+function updateItem(data)
 {
     // Function is meant to emulate the
     // "UPDATE" endpoint of an API.
     console.log("Accessing UPDATE...");
+    console.log("Data updated to: " + data);
 }
