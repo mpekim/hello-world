@@ -19,7 +19,12 @@ class Item{
     setId(id){
         this.id = id;
     }
-    // Stub for Item class.
+
+    present(){
+        console.log("Item name: " + this.name);
+        console.log("Item ID: " + this.id);
+    }
+    
 }
 
 function getItem()
