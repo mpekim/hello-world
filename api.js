@@ -63,3 +63,9 @@ function updateItem(data)
     console.log("Accessing UPDATE...");
     console.log("Data updated to: " + data);
 }
+
+function testDriver()
+{
+    const item1 = new Item("Can", 24);
+    item1.present();
+}
