@@ -68,4 +68,9 @@ function testDriver()
 {
     const item1 = new Item("Can", 24);
     item1.present();
+
+    const item2 = new Item("Lettuce", 48);
+    item2.present();
+
+    console.log("Value of item1 and item2 IDs added together: " + (item1.id + item2.id));
 }
