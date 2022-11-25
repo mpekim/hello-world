@@ -73,4 +73,5 @@ function testDriver()
     item2.present();
 
     console.log("Value of item1 and item2 IDs added together: " + (item1.id + item2.id));
+    // Check to see if the addition results in the id values being summed or stringed together.
 }
