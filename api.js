@@ -64,6 +64,9 @@ function updateItem(data)
     console.log("Data updated to: " + data);
 }
 
+// Pre-Condition: This function accepts no arguments.
+// Post-Condition: The code in the driver will be
+// tested.
 function testDriver()
 {
     const item1 = new Item("Can", 24);
