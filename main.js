@@ -213,6 +213,9 @@ function fibonacci(n)
     return fibonacci(n-1) + fibonacci(n-2);
 }
 
+// Pre-Condition: This function accepts one argument: a message.
+// Post-Condition: The message (string) will be checked to see
+// if it is a palindrome.
 function isPalindrome(message)
 {
     for (var i = 0; i < message.length; i++)
