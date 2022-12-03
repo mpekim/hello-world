@@ -64,6 +64,13 @@ function updateItem(data)
     console.log("Data updated to: " + data);
 }
 
+function errorMessage(value){
+    switch(value){
+        case 404:
+            console.log("Error: Item not found or does not exist.");
+    }
+}
+
 // Pre-Condition: This function accepts no arguments.
 // Post-Condition: The code in the driver will be
 // tested.
