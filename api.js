@@ -58,7 +58,7 @@ function putItem()
 
 function updateItem(data)
 {
-    // Function is meant to emulate the
+
     // "UPDATE" endpoint of an API.
     console.log("Accessing UPDATE...");
     console.log("Data updated to: " + data);
@@ -68,6 +68,10 @@ function errorMessage(value){
     switch(value){
         case 404:
             console.log("Error: Item not found or does not exist.");
+            break;
+        case 500:
+            console.log("Server Error.");
+            break;
     }
 }
 
