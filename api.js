@@ -66,6 +66,9 @@ function updateItem(data)
 
 function errorMessage(value){
     switch(value){
+        case 200:
+            console.log("No Errors!");
+            break;
         case 404:
             console.log("Error: Item not found or does not exist.");
             break;
