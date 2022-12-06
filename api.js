@@ -54,6 +54,7 @@ function putItem()
     // Function is meant to emulate the
     // "PUT" endpoint of an API.
     console.log("Accessing PUT...");
+    console.log("Item successfully PUT into list.");
 }
 
 function updateItem(data)
