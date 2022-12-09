@@ -47,6 +47,7 @@ function deleteItem()
     // Function is meant to emulate the
     // "DELETE" endpoint of an API.
     console.log("Accessing DELETE...");
+    console.log("Item successfully DELETED.");
 }
 
 function putItem()
