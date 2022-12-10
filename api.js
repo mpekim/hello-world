@@ -32,6 +32,7 @@ function getItem()
     // Function is meant to emulate the
     // "GET" endpoint of an API.
     console.log("Accessing GET...");
+    console.log("Item successfully retrieved.");
 }
 
 function postItem(data)
