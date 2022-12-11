@@ -35,6 +35,8 @@ function getItem()
     console.log("Item successfully retrieved.");
 }
 
+// Pre-Condition: This function accepts one argument: a data source.
+// Post-Condition: The item of the included data will be posted.
 function postItem(data)
 {
     // Function is meant to emulate the
