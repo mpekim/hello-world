@@ -45,7 +45,10 @@ function postItem(data)
     console.log("New data posted: " + data);
 }
 
-function deleteItem()
+// Pre-Condition: This function accepts one argument: an id
+// for the item to be deleted.
+// Post-Condition: The item will be deleted.
+function deleteItem(id)
 {
     // Function is meant to emulate the
     // "DELETE" endpoint of an API.
