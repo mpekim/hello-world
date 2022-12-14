@@ -53,6 +53,9 @@ function deleteItem(id)
     // Function is meant to emulate the
     // "DELETE" endpoint of an API.
     console.log("Accessing DELETE...");
+    
+    // Search for the ID value among the objects in
+    // the database. If it does not exist, return 404 error.
     console.log("Item successfully DELETED.");
 }
 
