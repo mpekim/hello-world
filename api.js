@@ -19,6 +19,7 @@ class Item{
     setId(id){
         this.id = id;
     }
+    // Accessor and Mutator functions.
 
     present(){
         console.log("Item name: " + this.name);
