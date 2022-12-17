@@ -75,6 +75,9 @@ function updateItem(data)
     // "UPDATE" endpoint of an API.
     console.log("Accessing UPDATE...");
     console.log("Data updated to: " + data);
+
+    // Check to see if data is correct. Otherwise,
+    // return an error.
 }
 
 function errorMessage(value){
