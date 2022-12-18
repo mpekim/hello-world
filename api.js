@@ -117,4 +117,6 @@ function testDriver()
     // Check to see if the addition results in the id values being summed or stringed together.
     console.log("Value of item1 and item2 IDs concatenated: " + item1.id + item2.id);
     // For comparison, here is what the addition looks like without parentheses.
+
+    // End of testDriver() function.
 }
