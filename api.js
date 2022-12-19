@@ -78,6 +78,14 @@ function updateItem(data)
 
     // Check to see if data is correct. Otherwise,
     // return an error.
+    if (data === 1234)
+    {
+
+    }
+    else
+    {
+        console.log("Error: data does not match.");
+    }
 }
 
 function errorMessage(value){
