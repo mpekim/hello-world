@@ -59,6 +59,15 @@ function deleteItem(id)
     // Search for the ID value among the objects in
     // the database. If it does not exist, return 404 error.
     console.log("Item successfully DELETED.");
+
+    if (id === 1234)
+    {
+        //Item was successfully found.
+    }
+    else
+    {
+        console.log("Error: unable to find item for deletion.");
+    }
 }
 
 function putItem()
