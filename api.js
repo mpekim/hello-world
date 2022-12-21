@@ -62,7 +62,8 @@ function deleteItem(id)
 
     if (id === 1234)
     {
-        //Item was successfully found.
+        // Item was successfully found.
+        // make sure that conditional works for ALL cases.
     }
     else
     {
