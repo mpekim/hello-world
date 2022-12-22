@@ -25,6 +25,10 @@ class Item{
         console.log("Item name: " + this.name);
         console.log("Item ID: " + this.id);
     }
+
+    encryptID(){
+        // Use Caesar Cipher to incrypt ID.
+    }
     
 }
 // Item Class.
