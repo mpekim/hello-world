@@ -28,6 +28,12 @@ class Item{
 
     encryptID(){
         // Use Caesar Cipher to incrypt ID.
+        for (var i = 0; i < id.length; i++)
+        {
+            id[i] = id[i] + 1;
+        }
+        // Make sure that the ID is a number string, and
+        // not an integer.
     }
     
 }
@@ -72,6 +78,7 @@ function deleteItem(id)
     else
     {
         console.log("Error: unable to find item for deletion.");
+        errorMessage(404);
     }
 }
 
@@ -99,6 +106,7 @@ function updateItem(data)
     else
     {
         console.log("Error: data does not match.");
+        errorMessage(404);
     }
 }
 
@@ -141,5 +149,5 @@ function testDriver()
     // For comparison, here is what the addition looks like without parentheses.
 
     // End of testDriver() function.
-    // Ver. 1.0.0
+    // Ver. 0.0.0
 }
