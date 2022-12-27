@@ -33,7 +33,7 @@ class Item{
             id[i] = id[i] + value;
         }
         // Make sure that the ID is a number string, and
-        // not an integer.
+        // not an integer. (mau involve const variable).
     }
     
 }
