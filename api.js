@@ -101,7 +101,7 @@ function updateItem(data)
     // return an error.
     if (data === 1234)
     {
-
+        errorMessage(200);
     }
     else
     {
