@@ -18,21 +18,6 @@
  * 
  ************************/
 
-class Dog extends Animal{
-    constructor(){
-        // Research Extended/Inherited constructors.
-    }
-
-    // Is creating a default constructor possible in JS?
-    // Research to find out, then create a default (no argument)
-    // Constructor if possible.
-    
-    present(){
-        // Stub for extended version of present function.
-    }
-}
-// Dog class.
-
 class Animal{
     constructor(name, legs, isHappy){
         this.name = name;
@@ -75,6 +60,21 @@ class Animal{
     }
 }
 // Animal class.
+
+class Dog extends Animal{
+    constructor(){
+        // Research Extended/Inherited constructors.
+    }
+
+    // Is creating a default constructor possible in JS?
+    // Research to find out, then create a default (no argument)
+    // Constructor if possible.
+    
+    present(){
+        // Stub for extended version of present function.
+    }
+}
+// Dog class.
 
 // Function acting as the setup for the IDE.
 function helloWorld()
