@@ -101,11 +101,11 @@ function updateItem(data)
     // return an error.
     if (data === 1234)
     {
-        //errorMessage(200);
+        // errorMessage(200);
     }
     else
     {
-        console.log("Error: data does not match.");
+        // console.log("Error: data does not match.");
         errorMessage(404);
     }
 }
