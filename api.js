@@ -138,7 +138,7 @@ function testDriver()
     item2.setName("Milk");
     console.log("Item2 has been updated to: " + item2.getName());
 
-    item1.setId(1);
+    item1.setId(24);
     console.log("Item1 has had its ID updated to: " + item1.getId());
 
     console.log("Testing addition vs. concatenation.");
