@@ -129,6 +129,8 @@ function errorMessage(value){
 // tested.
 function testDriver()
 {
+    // Research exactly what "const" does.
+    // It's apparently used often for JS objects.
     const item1 = new Item("Can", 24);
     item1.present();
 
