@@ -150,6 +150,8 @@ function testDriver()
     console.log("Value of item1 and item2 IDs concatenated: " + item1.id + item2.id);
     // For comparison, here is what the addition looks like without parentheses.
 
+    let interestingValue = 1;
+
     // End of testDriver() function.
     // Ver. 0.0.0; still not technically functional.
 }
