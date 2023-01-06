@@ -151,6 +151,8 @@ function testDriver()
     // For comparison, here is what the addition looks like without parentheses.
 
     let interestingValue = 1;
+    // Testing to see exactly how the "let" keyword
+    // differs from "var" or "const".
 
     // End of testDriver() function.
     // Ver. 0.0.0; still not technically functional.
