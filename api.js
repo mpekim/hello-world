@@ -137,6 +137,9 @@ function testDriver()
     const item2 = new Item("Lettuce", 48);
     item2.present();
 
+    document.write("<p>Item 1: </p>" +  item1.name + "\n" + "<p>Item 2: </p>" + item2.name + 
+    "<button class=codeButtonGreen onclick=returnToIndex()>Return</button>");
+
     item2.setName("Milk");
     console.log("Item2 has been updated to: " + item2.getName());
 
@@ -150,10 +153,16 @@ function testDriver()
     console.log("Value of item1 and item2 IDs concatenated: " + item1.id + item2.id);
     // For comparison, here is what the addition looks like without parentheses.
 
-    let interestingValue = 1;
-    // Testing to see exactly how the "let" keyword
-    // differs from "var" or "const".
+    //const dontUpdate = 1;
+    //dontUpdate = 2;
+
+    //console.log(dontUpdate);
 
     // End of testDriver() function.
     // Ver. 0.0.0; still not technically functional.
+}
+
+function returnToIndex(){
+    var url = "index.html"
+    window.location.href = url;
 }
