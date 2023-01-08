@@ -137,8 +137,12 @@ function testDriver()
     const item2 = new Item("Lettuce", 48);
     item2.present();
 
-    document.write("<p>Item 1: </p>" +  item1.name + "\n" + "<p>Item 2: </p>" + item2.name + 
-    "<button class=codeButtonGreen onclick=returnToIndex()>Return</button>");
+    //document.write("<p>Item 1: </p>" +  item1.name + "\n" + "<p>Item 2: </p>" + item2.name + 
+    //"</br><button class=codeButtonGreen onclick=returnToIndex()>Return</button>");
+
+    const majorList = document.querySelector("#major");
+
+    majorList.appendChild(addToMajor("Error1"));
 
     item2.setName("Milk");
     console.log("Item2 has been updated to: " + item2.getName());
@@ -165,4 +169,18 @@ function testDriver()
 function returnToIndex(){
     var url = "index.html"
     window.location.href = url;
+}
+
+function createMajorError(error){
+    let item = document.createElement('p');
+    item.textContent = error;
+    return item;
+}
+
+function createMinorError(error){
+
+}
+
+function createWarning(error){
+
 }

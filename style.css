@@ -8,7 +8,7 @@
     border-radius: 45px;
 }
 
-.codebuttonRed{
+.codeButtonRed{
     color: #FF0000;
     background-color: #000000;
 
@@ -40,7 +40,6 @@
 
     font-family: Arial;
 
-    display: flex;
     align-items: center;
 }
 
