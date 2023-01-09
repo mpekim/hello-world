@@ -178,9 +178,13 @@ function createMajorError(error){
 }
 
 function createMinorError(error){
-
+    let item = document.createElement('p');
+    item.textContent = error;
+    return item;
 }
 
 function createWarning(error){
-
+    let item = document.createElement('p');
+    item.textContent = error;
+    return item;
 }
