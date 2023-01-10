@@ -169,6 +169,7 @@ function testDriver()
 function returnToIndex(){
     var url = "index.html"
     window.location.href = url;
+    // Object.Object.property = value.
 }
 
 function createMajorError(error){
