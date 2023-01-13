@@ -108,6 +108,7 @@ function updateItem(data)
     {
         console.log("Error: data does not match.");
         errorMessage(404);
+        // Set up switch case for various errors.
     }
 }
 
