@@ -123,6 +123,7 @@ function errorMessage(value){
         case 500:
             console.log("Server Error.");
             break;
+            // Use as example for error handling.
     }
 }
 
