@@ -142,7 +142,8 @@ function testDriver()
 
     //document.write("<p>Item 1: </p>" +  item1.name + "\n" + "<p>Item 2: </p>" + item2.name + 
     //"</br><button class=codeButtonGreen onclick=returnToIndex()>Return</button>");
-
+    // Decide on if this code should be removed.
+    
     const majorList = document.querySelector("#major");
 
     majorList.appendChild(addToMajor("Error1"));
