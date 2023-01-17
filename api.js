@@ -139,12 +139,15 @@ function testDriver()
 
     const item2 = new Item("Lettuce", 48);
     item2.present();
+    // Create the items and present them onscreen.
 
     //document.write("<p>Item 1: </p>" +  item1.name + "\n" + "<p>Item 2: </p>" + item2.name + 
     //"</br><button class=codeButtonGreen onclick=returnToIndex()>Return</button>");
     // Decide on if this code should be removed.
     
     const majorList = document.querySelector("#major");
+    const minorList = document.querySelector("#minor");
+    const warn = document.querySelector("#warning");
 
     majorList.appendChild(addToMajor("Error1"));
 
