@@ -147,9 +147,11 @@ function testDriver()
     
     const majorList = document.querySelector("#major");
     const minorList = document.querySelector("#minor");
-    const warn = document.querySelector("#warning");
+    const warnList = document.querySelector("#warning");
 
-    majorList.appendChild(addToMajor("Error1"));
+    majorList.appendChild(createMajorError("Error1"));
+    minorList.appendChild(createMinorError("Error2"));
+    warnList.appendChild(createWarning("Error3"));
 
     item2.setName("Milk");
     console.log("Item2 has been updated to: " + item2.getName());
