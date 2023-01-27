@@ -253,6 +253,10 @@ function powerRule(coef, power)
 {
     console.log("Derivative of " + coef + "x^" + power + " via Power Rule: " + (coef*power) + "x^" + (power - 1));
 }
+function convertToJson(obj){
+    obj.JSON.stringify();
+    return obj;
+}
 
 // Pre-Condition: This function accepts an argument "n", for the upper
 // bound of the factorial.
