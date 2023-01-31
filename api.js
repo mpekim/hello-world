@@ -118,6 +118,7 @@ function errorMessage(value){
             console.log("No Errors!");
             break;
         case 401:
+            console.log("Unknown error.");
             break;
         case 404:
             console.log("Error: Item not found or does not exist.");
