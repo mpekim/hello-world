@@ -260,7 +260,8 @@ function convertToJson(obj){
 }
 
 function convertToJSObject(obj){
-    
+    obj.JSON.parse();
+    return obj;
 }
 
 // Pre-Condition: This function accepts an argument "n", for the upper
