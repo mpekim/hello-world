@@ -131,7 +131,7 @@ function helloWorld()
 
     // All test code will be "commented out" and "put back in" as needed.
 
-    console.log(factorial(3));
+    //console.log(factorial(3));
     
 }
 // Functions below are meant to be implemented as Object methods
