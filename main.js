@@ -197,6 +197,8 @@ function forLoopInput(input)
 }
 
 //--------------------------------------------------------------------------------------
+// Pre-Condition: This function accepts an integer "n".
+// Post-Condition: The fibonacci sequence up to "n" is displayed.
 function fibonacci(n)
 {
     if (n === 0)
