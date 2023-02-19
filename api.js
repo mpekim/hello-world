@@ -115,17 +115,13 @@ function updateItem(data)
 function errorMessage(value){
     switch(value){
         case 200:
-            console.log("No Errors!");
-            break;
+            return("No errors!");
         case 401:
-            console.log("Unknown error.");
-            break;
+            return("Unknown error.");
         case 404:
-            console.log("Error: Item not found or does not exist.");
-            break;
+            return("Error: Item not found or does not exist.");
         case 500:
-            console.log("Server Error.");
-            break;
+            return("Server Error.");
             // Use as example for error handling.
     }
 }
@@ -152,9 +148,9 @@ function testDriver()
     const minorList = document.querySelector("#minor");
     const warnList = document.querySelector("#warning");
 
-    majorList.appendChild(createMajorError("Error1"));
-    minorList.appendChild(createMinorError("Error2"));
-    warnList.appendChild(createWarning("Error3"));
+    majorList.appendChild(createMajorError(errorMessage(404)));
+    minorList.appendChild(createMinorError(errorMessage(401)));
+    warnList.appendChild(createWarning(errorMessage(200)));
 
     item2.setName("Milk");
     console.log("Item2 has been updated to: " + item2.getName());
