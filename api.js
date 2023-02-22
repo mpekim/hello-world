@@ -138,7 +138,7 @@ function testDriver()
 
     const item2 = new Item("Lettuce", 48);
     item2.present();
-    // Create the items and present them onscreen.
+    // Create the items and present them onscreen. (Find a way to do this with AppendChild)
 
     //document.write("<p>Item 1: </p>" +  item1.name + "\n" + "<p>Item 2: </p>" + item2.name + 
     //"</br><button class=codeButtonGreen onclick=returnToIndex()>Return</button>");
