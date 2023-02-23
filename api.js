@@ -75,6 +75,7 @@ function deleteItem(id)
     {
         // Item was successfully found.
         // make sure that conditional works for ALL cases.
+        errorMessage(200);
     }
     else
     {
@@ -89,6 +90,7 @@ function putItem()
     // "PUT" endpoint of an API.
     console.log("Accessing PUT...");
     console.log("Item successfully PUT into list.");
+    errorMessage(200);
 }
 
 function updateItem(data)
