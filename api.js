@@ -46,6 +46,7 @@ function getItem()
     // "GET" endpoint of an API.
     console.log("Accessing GET...");
     console.log("Item successfully retrieved.");
+    errorMessage(200);
 }
 
 // Pre-Condition: This function accepts one argument: a data source.
@@ -56,6 +57,7 @@ function postItem(data)
     // "POST" endpoint of an API.
     console.log("Accessing POST...");
     console.log("New data posted: " + data);
+    errorMessage(200);
 }
 
 // Pre-Condition: This function accepts one argument: an id
