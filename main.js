@@ -79,7 +79,7 @@ class Dog extends Animal{
 // Function acting as the setup for the IDE.
 function helloWorld()
 {
-    /*
+    
     alert("Hello World.");
     alert("Due to the console not running as intended, this is how the IDE will present output.");
 
@@ -94,6 +94,10 @@ function helloWorld()
         name: "Lilly",
         isHappy: false
     }
+    console.log("Before JSON: " + dog);
+    dog = convertToJson(dog);
+    console.log("After JSON: " + dog);
+    /*
 
     alert("Dog name: " + dog.name);
 
@@ -261,7 +265,7 @@ function convertToJson(obj){
     return obj;
 }
 
-function convertToJSObject(obj){
+function convertToJSobject(obj){
     obj.JSON.parse();
     return obj;
 }
