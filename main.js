@@ -83,20 +83,27 @@ function helloWorld()
     alert("Hello World.");
     alert("Due to the console not running as intended, this is how the IDE will present output.");
 
-    var dog = {
+    const dog = {
         legs: 4,
         name: "Sparky",
         isHappy: true
     }
 
-    var cat = {
+    const cat = {
         legs: 4,
         name: "Lilly",
         isHappy: false
     }
-    console.log("Before JSON: " + dog);
-    dog = convertToJson(dog);
-    console.log("After JSON: " + dog);
+
+    console.log("Before JSON: ");
+    console.log(dog)
+
+    const dog_json = convertToJson(dog);
+    
+    console.log("After JSON: ");
+    console.log(dog_json);
+    // Code works, but the result is the same.
+    // Also, I don't understand why concat doesn't work.
     /*
 
     alert("Dog name: " + dog.name);
@@ -261,12 +268,12 @@ function powerRule(coef, power)
 }
 
 function convertToJson(obj){
-    obj.JSON.stringify();
+    JSON.stringify(obj);
     return obj;
 }
 
 function convertToJSobject(obj){
-    obj.JSON.parse();
+    JSON.parse(obj);
     return obj;
 }
 
