@@ -99,9 +99,17 @@ function helloWorld()
     console.log(dog)
 
     const dog_json = convertToJson(dog);
-    
+
     console.log("After JSON: ");
     console.log(dog_json);
+
+    console.log("Before JSON: ");
+    console.log(cat);
+
+    const cat_json = convertToJson(cat);
+
+    console.log("After JSON: ");
+    console.log(cat);
     // Code works, but the result is the same.
     // Also, I don't understand why concat doesn't work.
     /*
