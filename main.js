@@ -62,8 +62,9 @@ class Animal{
 // Animal class.
 
 class Dog extends Animal{
-    constructor(){
+    constructor(breed){
         // Research Extended/Inherited constructors.
+        this.breed = breed;
     }
 
     // Is creating a default constructor possible in JS?
@@ -72,6 +73,7 @@ class Dog extends Animal{
     
     present(){
         // Stub for extended version of present function.
+        console.log("Breed: " + this.breed);
     }
 }
 // Dog class.
@@ -156,7 +158,7 @@ function helloWorld()
 // Functions below are meant to be implemented as Object methods
 // at some point.
 //-----------------------------------------------------------------------------
-
+/*
 // Pre-Condition: This function accepts a "dog" parameter.
 // Post-Condition: The legs value of the "dog" object
 // will be returned.
@@ -200,7 +202,7 @@ function setName(newName)
 function setHappy(newHappy)
 {
     dog.isHappy = newHappy;
-}
+}*/ // Code commented out due to removal of Dog class.
 // End of the functions for the Dog object.
 
 //--------------------------------------------------------------------------------------
