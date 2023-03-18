@@ -64,6 +64,7 @@ class Animal{
 class Dog extends Animal{
     constructor(breed){
         // Research Extended/Inherited constructors.
+        super(legs, isHappy);
         this.breed = breed;
     }
 
@@ -73,7 +74,7 @@ class Dog extends Animal{
     
     present(){
         // Stub for extended version of present function.
-        console.log("Breed: " + this.breed);
+        console.log(super.present() + "Breed: " + this.breed);
     }
 }
 // Dog class.
@@ -83,7 +84,8 @@ function helloWorld()
 {
     
     alert("Hello World.");
-    alert("Due to the console not running as intended, this is how the IDE will present output.");
+    // alert("Due to the console not running as intended, this is how the IDE will present output.");
+    // This statement can be removed due to output functioning as intended.
 
     const dog = {
         legs: 4,
@@ -112,6 +114,9 @@ function helloWorld()
 
     console.log("After JSON: ");
     console.log(cat);
+
+    d1 = new Dog("Fido", 4, true, "Labrador");
+    d1.present();
     // Code works, but the result is the same.
     // Also, I don't understand why concat doesn't work.
     /*
