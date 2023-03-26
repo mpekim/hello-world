@@ -115,8 +115,8 @@ function helloWorld()
     console.log("After JSON: ");
     console.log(cat);
 
-    d1 = new Dog("Fido", 4, true, "Labrador");
-    d1.present();
+    // d1 = new Dog("Fido", 4, true, "Labrador");
+    // d1.present();
     // Code works, but the result is the same.
     // Also, I don't understand why concat doesn't work.
     /*
