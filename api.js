@@ -177,6 +177,7 @@ function testDriver()
     //dontUpdate = 2;
 
     //console.log(dontUpdate);
+    // Updating const should provide error.
 
     // End of testDriver() function.
     // Ver. 0.0.0; still not technically functional.
@@ -192,6 +193,7 @@ function createMajorError(error){
     let item = document.createElement('p');
     item.textContent = error;
     return item;
+    // Use this code for dynamic web pages in CS-383 Project.
 }
 
 function createMinorError(error){
