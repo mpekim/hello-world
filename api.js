@@ -34,7 +34,7 @@ class Item{
             id[i] = id[i] + value;
         }
         // Make sure that the ID is a number string, and
-        // not an integer. (mau involve const variable).
+        // not an integer. (may involve const variable).
     }
     
 }
@@ -159,6 +159,7 @@ function testDriver()
     majorList.appendChild(createMajorError(errorMessage(404)));
     minorList.appendChild(createMinorError(errorMessage(401)));
     warnList.appendChild(createWarning(errorMessage(200)));
+    // Implement this code for CS-383 project.
 
     item2.setName("Milk");
     console.log("Item2 has been updated to: " + item2.getName());
