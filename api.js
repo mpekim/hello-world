@@ -160,6 +160,8 @@ function testDriver()
     minorList.appendChild(createMinorError(errorMessage(401)));
     warnList.appendChild(createWarning(errorMessage(200)));
     // Implement this code for CS-383 project.
+    // Specifically, we want to generate the text for Docker
+    // containers on-screen.
 
     item2.setName("Milk");
     console.log("Item2 has been updated to: " + item2.getName());
