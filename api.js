@@ -27,7 +27,7 @@ class Item{
         console.log("Item ID: " + this.id);
     }
 
-    encryptID(value){
+    encryptIDup(value){
         // Use Caesar Cipher to incrypt ID.
         for (var i = 0; i < id.length; i++)
         {
@@ -35,6 +35,7 @@ class Item{
         }
         // Make sure that the ID is a number string, and
         // not an integer. (may involve const variable).
+        // As of right now, string may concatenate.
     }
     
 }
