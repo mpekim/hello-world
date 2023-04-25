@@ -25,6 +25,7 @@ class Item{
     present(){
         console.log("Item name: " + this.name);
         console.log("Item ID: " + this.id);
+        // Present the object on-screen.
     }
 
     encryptIDup(value){

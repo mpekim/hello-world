@@ -250,7 +250,7 @@ function isPalindrome(message)
     {
         if (message[i] != message[message.length - i])
         {
-            console.log("Message is not a plaindrome.");
+            console.log("Message is not a palindrome.");
             return;
         }
     }
