@@ -113,7 +113,7 @@ function helloWorld()
     const cat_json = convertToJson(cat);
 
     console.log("After JSON: ");
-    console.log(cat);
+    console.log(cat_json);
 
     // d1 = new Dog("Fido", 4, true, "Labrador");
     // d1.present();
