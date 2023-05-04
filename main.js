@@ -95,7 +95,7 @@ function helloWorld()
 
     const cat = {
         legs: 4,
-        name: "Lilly",
+        name: "Willwy",
         isHappy: false
     }
 
