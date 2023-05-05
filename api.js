@@ -101,6 +101,8 @@ function putItem()
     errorMessage(200);
 }
 
+// Pre-Condition: This function accepts a data argument.
+// Post-Condition: The data will be updated.
 function updateItem(data)
 {
 
@@ -164,6 +166,9 @@ function testDriver()
     // Implement this code for CS-383 project.
     // Specifically, we want to generate the text for Docker
     // containers on-screen.
+
+    majorList.appendChild("Final Exam for CS-141 tomorrow!");
+    minorList.appendChild("Good luck, and congratulations!");
 
     item2.setName("Milk");
     console.log("Item2 has been updated to: " + item2.getName());
