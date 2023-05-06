@@ -38,6 +38,10 @@ class Item{
         // not an integer. (may involve const variable).
         // As of right now, string may concatenate.
     }
+
+    ecryptIDdown(value){
+        // Stub for encyption function.
+    }
     
 }
 // Item Class.
@@ -169,6 +173,7 @@ function testDriver()
 
     majorList.appendChild("Final Exam for CS-141 tomorrow!");
     minorList.appendChild("Good luck, and congratulations!");
+    // Notes for CS-141 Final Exam.
 
     item2.setName("Milk");
     console.log("Item2 has been updated to: " + item2.getName());
