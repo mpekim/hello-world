@@ -41,6 +41,10 @@ class Item{
 
     ecryptIDdown(value){
         // Stub for encyption function.
+        for (var i = 0; i < this.id.length; i++)
+        {
+            id[i] = id[i] - value;
+        }
     }
     
 }

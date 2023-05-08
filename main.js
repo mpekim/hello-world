@@ -79,6 +79,12 @@ class Dog extends Animal{
 }
 // Dog class.
 
+class Cat extends Animal{
+    constructor(meow){
+        
+    }
+}
+
 // Function acting as the setup for the IDE.
 function helloWorld()
 {
