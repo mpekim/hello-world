@@ -81,7 +81,8 @@ class Dog extends Animal{
 
 class Cat extends Animal{
     constructor(meow){
-        
+        super(legs, isHappy);
+        this.meow = meow;
     }
 }
 
