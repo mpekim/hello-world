@@ -273,6 +273,7 @@ function changeString(message, shift)
     for (var i = 0; i < message.length; i++)
     {
         message[i] = message[i] + shift;
+        // Succesful letter shift.
     }
     // As of right now, this code does not work as intended.
     // Check to see if there is any way to type-cast the data to
