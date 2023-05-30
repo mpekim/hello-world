@@ -18,6 +18,9 @@
  * 
  ************************/
 
+import React from 'react';
+import React-Dom from 'react-dom';
+
 class Animal{
     constructor(name, legs, isHappy){
         this.name = name;
