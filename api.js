@@ -30,10 +30,7 @@ class Item{
 
     encryptIDup(value){
         // Use Caesar Cipher to incrypt ID.
-        for (var i = 0; i < id.length; i++)
-        {
-            id[i] = id[i] + value;
-        }
+        this.id = this.id + value % 100;
         // Make sure that the ID is a number string, and
         // not an integer. (may involve const variable).
         // As of right now, string may concatenate.
@@ -41,10 +38,7 @@ class Item{
 
     ecryptIDdown(value){
         // Stub for encyption function.
-        for (var i = 0; i < this.id.length; i++)
-        {
-            id[i] = id[i] - value;
-        }
+        this.id = this.id - value % 100;
     }
     
 }
@@ -175,8 +169,8 @@ function testDriver()
     // Specifically, we want to generate the text for Docker
     // containers on-screen.
 
-    majorList.appendChild("Final Exam for CS-141 tomorrow!");
-    minorList.appendChild("Good luck, and congratulations!");
+    //majorList.appendChild("Final Exam for CS-141 tomorrow!");
+    //minorList.appendChild("Good luck, and congratulations!");
     // Notes for CS-141 Final Exam.
 
     item2.setName("Milk");
@@ -192,6 +186,8 @@ function testDriver()
     console.log("Value of item1 and item2 IDs concatenated: " + item1.id + item2.id);
     // For comparison, here is what the addition looks like without parentheses.
 
+    item1.encryptIDup(2);
+    console.log("New ID for item1: " + item1.id);
     //const dontUpdate = 1;
     //dontUpdate = 2;
 

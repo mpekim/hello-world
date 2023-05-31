@@ -18,9 +18,6 @@
  * 
  ************************/
 
-import React from 'react';
-import React-Dom from 'react-dom';
-
 class Animal{
     constructor(name, legs, isHappy){
         this.name = name;
@@ -124,6 +121,8 @@ function helloWorld()
 
     console.log("After JSON: ");
     console.log(cat_json);
+
+    console.log("Arrow function test: " + mutliply(3, 4));
 
     // d1 = new Dog("Fido", 4, true, "Labrador");
     // d1.present();
@@ -302,6 +301,8 @@ function convertToJSobject(obj){
     JSON.parse(obj);
     return obj;
 }
+
+let mutliply = (a, b) => a * b;
 
 // Pre-Condition: This function accepts an argument "n", for the upper
 // bound of the factorial.
