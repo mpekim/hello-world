@@ -38,6 +38,8 @@ class Item{
 
     ecryptIDdown(value){
         // Stub for encyption function.
+        // Find out more sophisticated ways to
+        // encrypt soon.
         this.id = this.id - value % 100;
     }
     
