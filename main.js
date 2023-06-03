@@ -304,6 +304,7 @@ function convertToJSobject(obj){
 
 let mutliply = (a, b) => a * b;
 let add = (a, b) => a + b;
+let subtract = (a, b) => a - b;
 
 // Pre-Condition: This function accepts an argument "n", for the upper
 // bound of the factorial.
