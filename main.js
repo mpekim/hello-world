@@ -124,6 +124,8 @@ function helloWorld()
 
     console.log("Arrow function test: " + mutliply(3, 4));
 
+    message("glip glop");
+
     // d1 = new Dog("Fido", 4, true, "Labrador");
     // d1.present();
     // Code works, but the result is the same.
@@ -306,6 +308,9 @@ let mutliply = (a, b) => a * b;
 let add = (a, b) => a + b;
 let subtract = (a, b) => a - b;
 let divide = (a, b) => a / b;
+
+let message = (input) => console.log("Hello " + input);
+// ES6 Arrow functions. Basic practice.
 
 // Pre-Condition: This function accepts an argument "n", for the upper
 // bound of the factorial.
