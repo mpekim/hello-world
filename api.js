@@ -163,10 +163,13 @@ function testDriver()
     const majorList = document.querySelector("#major");
     const minorList = document.querySelector("#minor");
     const warnList = document.querySelector("#warning");
+    const output = document.querySelector("#output");
 
     majorList.appendChild(createMajorError(errorMessage(404)));
     minorList.appendChild(createMinorError(errorMessage(401)));
     warnList.appendChild(createWarning(errorMessage(200)));
+    
+    output.appendChild(createOutput(item2.name));
     // Implement this code for CS-383 project.
     // Specifically, we want to generate the text for Docker
     // containers on-screen.
@@ -176,12 +179,12 @@ function testDriver()
     // Notes for CS-141 Final Exam.
 
     item2.setName("Milk");
-    console.log("Item2 has been updated to: " + item2.getName());
+    output.appendChild(createOutput("Item2 has been updated to: " + item2.getName()));
 
     item1.setId(24);
-    console.log("Item1 has had its ID updated to: " + item1.getId());
+    output.appendChild(createOutput("Item1 has had its ID updated to: " + item1.getId()));
 
-    console.log("Testing addition vs. concatenation.");
+    output.appendChild(createOutput("Testing addition vs. concatenation."));
 
     console.log("Value of item1 and item2 IDs added together: " + (item1.id + item2.id));
     // Check to see if the addition results in the id values being summed or stringed together.
@@ -222,5 +225,11 @@ function createMinorError(error){
 function createWarning(error){
     let item = document.createElement('p');
     item.textContent = error;
+    return item;
+}
+
+function createOutput(output){
+    let item = document.createElement('p');
+    item.textContent = output;
     return item;
 }

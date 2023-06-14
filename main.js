@@ -113,6 +113,7 @@ function helloWorld()
 
     console.log("After JSON: ");
     console.log(dog_json);
+    // JSON for dog objects.
 
     console.log("Before JSON: ");
     console.log(cat);
@@ -125,6 +126,9 @@ function helloWorld()
     console.log("Arrow function test: " + mutliply(3, 4));
 
     message("glip glop");
+
+    isPalindrome("racecar");
+    isPalindrome("glip glop");
 
     // d1 = new Dog("Fido", 4, true, "Labrador");
     // d1.present();
@@ -257,15 +261,16 @@ function fibonacci(n)
 // if it is a palindrome.
 function isPalindrome(message)
 {
-    for (var i = 0; i < message.length; i++)
+    for (var i = 0; i < (message.length / 2); i++)
     {
-        if (message[i] != message[message.length - i])
+        //console.log(message[i] + " : " + message[message.length - (i + 1)]);
+        if (message[i] != message[message.length - (i + 1)])
         {
-            console.log("Message is not a palindrome.");
+            console.log(message + " is not a palindrome.");
             return;
         }
     }
-    console.log("Message is a palindrome.");
+    console.log(message + " is a palindrome.");
     return;
 }
 
