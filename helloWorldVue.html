@@ -12,70 +12,69 @@
             You have hit the button {{ count }} times.
             <br>
             Shopping List
-            <ol>
-                <li v-for="x in shoppingList">{{ x }}</li>
-            </ol>
-            
+            <br>
+            <!--Present shopping list. First step towards LFP work.-->
             <button id="button" @click="setName">Change the Name!</button>
             <br>
             <br>
             <button id="button" @click="countUp">Click me!</button>
         </div>
-
-        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-        <script>
-            const app = Vue.createApp({
-                data() {
-                    return {
-                        message: "Hello World!",
-                        name: "Mike",
-                        count: 0,
-                        shoppingList: {
-                            item1: "fruit",
-                            item2: "tuna",
-                            item3: "soda"
-                        }
-                    }
-                },
-                    methods: {
-                        setName(){
-                            if (this.count % 2 === 0)
-                            {
-                                this.name = "Mike";
-                            }
-                            else{
-                                this.name = "Jerry";
-                            }
-                        },
-                        countUp(){
-                            if (this.count === 10)
-                            {
-                                this.count = 0;
-                                return;
-                            }
-                            this.count++;
-                        }
-                    }
-            })
-
-            app.mount('#app');
-        </script>
-
-        <style>
-            #app
-            {
-               color: #000000;
-               background-color: #32CD32;
-               font-family: Helvetica;
-               font-weight: bold; 
-            }
-            #button
-            {
-                color: #FF0000;
-                background-color: #000000;
-                font-family: Helvetica;
-                font-weight: bold;
-            }
-        </style>
     </body>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    message: "Hello World!",
+                    name: "Mike",
+                    count: 0,
+                    imageName: "image1.jpg",
+                    shoppingList: {
+                        item1: "fruit",
+                        item2: "tuna",
+                        item3: "soda"
+                    }
+                }
+            },
+                methods: {
+                    setName(){
+                        if (this.count % 2 === 0)
+                        {
+                            this.name = "Mike";
+                        }
+                        else{
+                            this.name = "Jerry";
+                        }
+                    },
+                    countUp(){
+                        if (this.count === 10)
+                        {
+                            this.count = 0;
+                            return;
+                        }
+                        this.count++;
+                    }
+                }
+        })
+
+        app.mount('#app');
+    </script>
+
+    <style>
+        #app
+        {
+        color: #000000;
+        background-color: #32CD32;
+        font-family: Helvetica;
+        font-weight: bold; 
+        }
+        #button
+        {
+            color: #FF0000;
+            background-color: #000000;
+            font-family: Helvetica;
+            font-weight: bold;
+        }
+    </style>
 </html>
