@@ -52,7 +52,7 @@ function getItem()
     // "GET" endpoint of an API.
     console.log("Accessing GET...");
     console.log("Item successfully retrieved.");
-    errorMessage(200);
+    console.log(errorMessage(200));
 
     // Note: errors are not possible with GET (No ID).
     // At best, we can return an empty list.
@@ -91,7 +91,7 @@ function deleteItem(id)
     else
     {
         console.log("Error: unable to find item for deletion.");
-        errorMessage(404);
+        console.log(errorMessage(404));
         // Is this now redundant due to console.log?
     }
 }
@@ -118,7 +118,7 @@ function updateItem(data)
     // return an error.
     if (data === 1234)
     {
-        errorMessage(200);
+        console.log(errorMessage(200));
     }
     else
     {
