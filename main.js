@@ -91,8 +91,6 @@ function helloWorld()
 {
     
     alert("Hello World.");
-    // alert("Due to the console not running as intended, this is how the IDE will present output.");
-    // This statement can be removed due to output functioning as intended.
 
     const dog = {
         legs: 4,
