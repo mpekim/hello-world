@@ -111,7 +111,6 @@ function helloWorld()
 
     console.log("After JSON: ");
     console.log(dog_json);
-    // JSON for dog objects.
 
     console.log("Before JSON: ");
     console.log(cat);
