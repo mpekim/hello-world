@@ -123,6 +123,7 @@ function helloWorld()
     console.log("Arrow function test: " + mutliply(3, 4));
 
     message("glip glop");
+    // Testing out ES6 Function.
 
     isPalindrome("racecar");
     isPalindrome("glip glop");
