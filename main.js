@@ -53,7 +53,7 @@ class Animal{
         this.isHappy = newIsHappy;
     }
 
-    present(){
+    presentAnimal(){
         console.log("Animal name: " + this.name);
         console.log("Animal Legs: " + this.legs);
         console.log("Is the Animal happy? " + this.isHappy);
@@ -62,9 +62,9 @@ class Animal{
 // Animal class.
 
 class Dog extends Animal{
-    constructor(breed){
+    constructor(name, legs, isHappy, breed){
         // Research Extended/Inherited constructors.
-        super(legs, isHappy);
+        super(name, legs, isHappy);
         this.breed = breed;
     }
 
@@ -72,9 +72,9 @@ class Dog extends Animal{
     // Research to find out, then create a default (no argument)
     // Constructor if possible.
     
-    present(){
+    presentDog(){
         // Stub for extended version of present function.
-        console.log(super.present() + "Breed: " + this.breed);
+        console.log(this.presentAnimal() + "Breed: " + this.breed);
     }
 }
 // Dog class.
@@ -128,8 +128,8 @@ function helloWorld()
     isPalindrome("racecar");
     isPalindrome("glip glop");
 
-    // d1 = new Dog("Fido", 4, true, "Labrador");
-    // d1.present();
+    d1 = new Dog("Fido", 4, true, "Labrador");
+    d1.presentDog();
     // Code works, but the result is the same.
     // Also, I don't understand why concat doesn't work.
     /*
