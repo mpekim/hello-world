@@ -48,11 +48,14 @@ class Item{
 
 function getItem()
 {
+    let item = 1;
     // Function is meant to emulate the
     // "GET" endpoint of an API.
     console.log("Accessing GET...");
     console.log("Item successfully retrieved.");
     console.log(errorMessage(200));
+
+    return item;
 
     // Note: errors are not possible with GET (No ID).
     // At best, we can return an empty list.
