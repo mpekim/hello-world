@@ -74,22 +74,21 @@ class Dog extends Animal{
     
     presentDog(){
         // Stub for extended version of present function.
-        console.log(this.presentAnimal() + "Breed: " + this.breed);
+        console.log(this.presentAnimal());
     }
 }
 // Dog class.
 
 class Cat extends Animal{
-    constructor(meow){
+    constructor(name, legs, isHappy, sound){
         super(legs, isHappy);
-        this.meow = meow;
+        this.sound = sound;
     }
 }
 
 // Function acting as the setup for the IDE.
 function helloWorld()
 {
-    
     alert("Hello World.");
 
     const dog = {

@@ -30,7 +30,10 @@ class Item{
 
     encryptIDup(value){
         // Use Caesar Cipher to incrypt ID.
-        this.id = this.id + value % 100;
+        for (let i = 0; i < value; i++)
+        {
+            this.id = this.id + 1;
+        }
         // Make sure that the ID is a number string, and
         // not an integer. (may involve const variable).
         // As of right now, string may concatenate.
@@ -40,7 +43,10 @@ class Item{
         // Stub for encyption function.
         // Find out more sophisticated ways to
         // encrypt soon.
-        this.id = this.id - value % 100;
+        for (let i = 0; i < value; i++)
+        {
+            this.id = this.id - 1;
+        }
     }
     
 }
@@ -48,11 +54,12 @@ class Item{
 
 function getItem()
 {
-    let item = 1;
+    let item = new Item();
     // Function is meant to emulate the
     // "GET" endpoint of an API.
     console.log("Accessing GET...");
     console.log("Item successfully retrieved.");
+    console.log("Item details: " + item.present());
     console.log(errorMessage(200));
 
     return item;
@@ -195,8 +202,10 @@ function testDriver()
     console.log("Value of item1 and item2 IDs concatenated: " + item1.id + item2.id);
     // For comparison, here is what the addition looks like without parentheses.
 
-    item1.encryptIDup(2);
+    item1.encryptIDup(3);
     console.log("New ID for item1: " + item1.id);
+
+    getItem();
     //const dontUpdate = 1;
     //dontUpdate = 2;
 
