@@ -43,7 +43,7 @@
     align-items: center;
 }
 
-.ideBug{
+div.ideBug{
     display: grid;
     grid-template-areas:
     "major minor warning";
