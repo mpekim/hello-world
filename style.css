@@ -1,4 +1,4 @@
-.codeButtonGreen{
+body.codeButtonGreen{
     color: #32cd32;
     background-color: #666666;
 
@@ -8,7 +8,7 @@
     border-radius: 45px;
 }
 
-.codeButtonRed{
+body.codeButtonRed{
     color: #FF0000;
     background-color: #000000;
 
@@ -18,7 +18,7 @@
     border-radius: 45px;
 }
 
-.codeButtonBlue{
+body.codeButtonBlue{
     color: #0000FF;
     background-color: #000000;
 
@@ -28,7 +28,7 @@
     border-radius: 45px;
 }
 
-.ideMain{
+div.ideMain{
     background-color: #ACACAC;
 
     border: solid;
@@ -56,7 +56,7 @@ div.ideBug{
     font-family: Arial;
 }
 
-.ideOutput{
+div.ideOutput{
     display: grid;
     grid-template-areas:
     "output output";
@@ -70,19 +70,19 @@ div.ideBug{
     font-family: Helvetica;
 }
 
-.major{
+div.major{
     background-color: #FF0000;
 
     font-weight: bold;
 }
 
-.minor{
+div.minor{
     background-color: #FF7733;
     
     font-style: italic;
 }
 
-.warning{
+div.warning{
     background-color: #FFFF00;
 }
 
