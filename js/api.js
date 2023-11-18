@@ -142,6 +142,8 @@ function errorMessage(value){
     switch(value){
         case 200:
             return("No errors!");
+        case 201:
+            return("Item created.");
         case 401:
             return("Unknown error.");
         case 404:
