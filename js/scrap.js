@@ -89,6 +89,3 @@ function setHappy(newHappy)
 dog.isHappy = newHappy;
 }*/ // Code commented out due to removal of Dog class.
 // End of the functions for the Dog object.
-
-let message = (input) => console.log("Hello " + input);
-// ES6 Arrow functions. Basic practice.

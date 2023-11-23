@@ -190,3 +190,6 @@ function convertToJSobject(obj){
     JSON.parse(obj);
     return obj;
 }
+
+let message = (input) => console.log("Hello " + input);
+// ES6 Arrow functions. Basic practice.
