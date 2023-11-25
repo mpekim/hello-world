@@ -12,6 +12,7 @@
             You have hit the button {{ count }} times.
             <br>
             Shopping List
+            {{ shoppingList }}
             <br>
             <!--Present shopping list. First step towards LFP work.-->
             <button id="button" @click="setName">Change the Name!</button>
@@ -20,6 +21,8 @@
             <button id="button" @click="countUp">Click me!</button>
             <div id="sidebar">
                 {{ sidebar }}
+                <br>
+                {{ shoppingList }}
             </div>
         </div>
     </body>
