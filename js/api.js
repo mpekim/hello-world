@@ -146,6 +146,8 @@ function errorMessage(value){
             return("Item created.");
         case 401:
             return("Unknown error.");
+        case 403:
+            return("Forbidden.");
         case 404:
             return("Error: Item not found or does not exist.");
         case 500:
