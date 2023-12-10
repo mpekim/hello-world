@@ -193,3 +193,7 @@ function convertToJSobject(obj){
 
 let message = (input) => console.log("Hello " + input);
 // ES6 Arrow functions. Basic practice.
+
+function refreshPage(){
+    window.location.reload();
+}
