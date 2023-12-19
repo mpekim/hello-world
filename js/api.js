@@ -91,7 +91,7 @@ function deleteItem(id)
     // Search for the ID value among the objects in
     // the database. If it does not exist, return 404 error.
 
-    if (id === 1234)
+    if (Number(id) === 1234)
     {
         // Item was successfully found.
         // make sure that conditional works for ALL cases.
@@ -126,7 +126,7 @@ function updateItem(data)
 
     // Check to see if data is correct. Otherwise,
     // return an error.
-    if (data === 1234)
+    if (Number(data) === 1234)
     {
         console.log(errorMessage(200));
     }
@@ -210,6 +210,7 @@ function testDriver()
     console.log("New ID for item1: " + item1.id);
 
     getItem();
+    updateItem("1234");
     //const dontUpdate = 1;
     //dontUpdate = 2;
 
