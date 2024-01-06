@@ -18,7 +18,7 @@ class Item{
     }
 
     setId(id){
-        this.id = id;
+        this.id = Number(id);
     }
     // Accessor and Mutator functions.
 
@@ -30,7 +30,7 @@ class Item{
 
     encryptIDup(value){
         // Use Caesar Cipher to incrypt ID.
-        for (let i = 0; i < value; i++)
+        for (let i = 0; i < Number(value); i++)
         {
             this.id = this.id + 1;
         }
@@ -43,7 +43,7 @@ class Item{
         // Stub for encyption function.
         // Find out more sophisticated ways to
         // encrypt soon.
-        for (let i = 0; i < value; i++)
+        for (let i = 0; i < Number(value); i++)
         {
             this.id = this.id - 1;
         }
