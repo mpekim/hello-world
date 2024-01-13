@@ -46,7 +46,7 @@ class Animal{
     }
 
     setLegs(newLegs){
-        this.legs = newLegs;
+        this.legs = Number(newLegs);
     }
     
     setIsHappy(newIsHappy){
