@@ -1,4 +1,4 @@
-body.codeButtonGreen{
+button.codeButtonGreen{
     color: #32cd32;
     background-color: #666666;
 
@@ -8,7 +8,7 @@ body.codeButtonGreen{
     border-radius: 45px;
 }
 
-body.codeButtonRed{
+button.codeButtonRed{
     color: #FF0000;
     background-color: #000000;
 
@@ -18,7 +18,7 @@ body.codeButtonRed{
     border-radius: 45px;
 }
 
-body.codeButtonBlue{
+button.codeButtonBlue{
     color: #0000FF;
     background-color: #000000;
 
@@ -84,6 +84,21 @@ div.minor{
 
 div.warning{
     background-color: #FFFF00;
+}
+
+div.ide{
+    text-align: center;
+}
+
+div.ide input.ide{
+    height: 800px;
+    width: 800px;
+}
+
+div.ide textarea.ide::placeholder{
+    position: relative;
+    bottom: 380px;
+    text-align: center;
 }
 
 .centerText{
