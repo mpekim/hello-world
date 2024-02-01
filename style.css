@@ -95,9 +95,8 @@ div.ide input.ide{
     width: 800px;
 }
 
-div.ide textarea.ide::placeholder{
+div.ide form textarea.ide::placeholder{
     position: relative;
-    bottom: 380px;
     text-align: center;
 }
 
