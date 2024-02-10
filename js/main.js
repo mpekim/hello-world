@@ -84,6 +84,10 @@ class Cat extends Animal{
         super(legs, isHappy);
         this.sound = sound;
     }
+
+    presentCat(){
+        console.log(this.presentAnimal());
+    }
 }
 
 // Function acting as the setup for the IDE.
