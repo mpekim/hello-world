@@ -198,9 +198,12 @@ function convertToJSobject(obj){
 let message = (input) => console.log("Hello " + input);
 // ES6 Arrow functions. Basic practice.
 
-function changeWarning(){
-    let warn = document.getElementById("warning");
-    warn.textContent = "NEW WARNING";
+function runCode(){
+    var con = document.getElementById("ide");
+    var code = con.value;
+    
+    const final = document.querySelector("#output");
+    final.appendChild(createOutput(code));
 }
 
 function refreshPage(){
