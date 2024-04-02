@@ -10,7 +10,7 @@
         <script type = "text/javascript" src="js/main.js"></script>
         <script type = "text/javascript" src="js/math_mmorley.js"></script>
     </head>
-    <body>
+    <body id="body">
         <div class="ideMain">
             <h1>Welcome to My JavaScript Makeshift IDE.</h1>
             <p>Note: In order to use the traditional console, press F12.</p>
@@ -43,10 +43,9 @@
         </div>
         <div class="ide">
             <form>
-                <textarea class="ide" rows="20" cols="100" placeholder="Place Code Here">
-                </textarea>
+                <input type="text" id="color" placeholder="Change Color">
                 </br>
-                <button class="codeButtonGreen" onclick="runCode()">Submit Code</button>
+                <button class="codeButtonGreen" onclick="sendInput()">Submit Code</button>
             </form>
         </div>
     </body>

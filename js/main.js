@@ -198,12 +198,11 @@ function convertToJSobject(obj){
 let message = (input) => console.log("Hello " + input);
 // ES6 Arrow functions. Basic practice.
 
-function runCode(){
-    var con = document.getElementById("ide");
-    var code = con.value;
-    
-    const final = document.querySelector("#output");
-    final.appendChild(createOutput(code));
+function sendInput(){
+    let body = document.getElementById('body');
+    let background = document.getElementById('color').value;
+    body.style.background = background;
+    return;
 }
 
 function refreshPage(){
