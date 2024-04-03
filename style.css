@@ -120,3 +120,13 @@ div.ide form textarea.ide::placeholder{
 .gridItem{
     grid-area: item;
 }
+
+input.codeButtonGreen{
+    color: #32cd32;
+    background-color: #666666;
+
+    font-weight: bold;
+    font-family: Georgia;
+
+    border-radius: 45px;
+}

@@ -202,7 +202,7 @@ function sendInput(){
     let body = document.getElementById('body');
     let background = document.getElementById('color').value;
     body.style.background = background;
-    return;
+    return (false);
 }
 
 function refreshPage(){
