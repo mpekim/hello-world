@@ -24,9 +24,11 @@ class Animal{
         this.legs = legs;
         this.isHappy = isHappy;
     }
+
     makeSound(){
         console.log("Default animal sound.");
     }
+    
     // Work on creating Animal as the "Basic/Super" class,
     // and having Dog extend/inherit on the Animal class.
     getName(){
@@ -164,6 +166,7 @@ function isPalindrome(message)
             return;
         }
     }
+
     console.log(message + " is a palindrome.");
     return;
 }
