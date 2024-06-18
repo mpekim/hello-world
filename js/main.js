@@ -77,6 +77,7 @@ class Dog extends Animal{
     presentDog(){
         // Stub for extended version of present function.
         console.log(this.presentAnimal());
+        console.log("Breed: " + this.breed);
     }
 }
 // Dog class.
@@ -89,6 +90,7 @@ class Cat extends Animal{
 
     presentCat(){
         console.log(this.presentAnimal());
+        console.log(this.sound);
     }
 }
 
