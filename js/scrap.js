@@ -49,7 +49,7 @@ console.log("Message after shift: " + message);*/
 // will be returned.
 function getLegs(dog)
 {
-return dog.legs;
+    return dog.legs;
 }
 
 // Pre-Condition: This function accepts a "dog" parameter.
@@ -57,12 +57,12 @@ return dog.legs;
 // will be returned.
 function getName(dog)
 {
-return dog.name;
+    return dog.name;
 }
 
 function getHappy(dog)
 {
-return dog.isHappy;
+    return dog.isHappy;
 }
 
 // Pre-Condition: This function accepts a "newLegs" parameter.
@@ -70,7 +70,7 @@ return dog.isHappy;
 // will be set to the input value.
 function setLegs(newLegs)
 {
-dog.legs = newLegs;
+    dog.legs = newLegs;
 }
 
 // Pre-Condition: This function accepts a "newName" parameter.
@@ -78,7 +78,7 @@ dog.legs = newLegs;
 // be set to the input value.
 function setName(newName)
 {
-dog.name = newName;
+    dog.name = newName;
 }
 
 // Pre-Condition: This function accepts a "newHappy" parameter.
@@ -86,6 +86,6 @@ dog.name = newName;
 // will be set to the input value.
 function setHappy(newHappy)
 {
-dog.isHappy = newHappy;
+    dog.isHappy = newHappy;
 }*/ // Code commented out due to removal of Dog class.
 // End of the functions for the Dog object.
