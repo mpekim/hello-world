@@ -180,7 +180,7 @@ function changeString(message, shift)
 {
     for (var i = 0; i < message.length; i++)
     {
-        message[i] = message[i] + shift;
+        message[i] = Number(message[i]) + Number(shift);
         // Succesful letter shift. Same rule applies for encryption.
     }
     // As of right now, this code does not work as intended.
