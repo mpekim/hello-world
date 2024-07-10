@@ -34,7 +34,7 @@ defaultDog.present(defaultDog);*/
 console.log("Message before shift: " + message);
 message = changeString(message, 1);
 console.log("Message after shift: " + message);*/
-// Comenting out code until messageShift() function works.
+// Commenting out code until messageShift() function works.
 
 // All test code will be "commented out" and "put back in" as needed.
 
