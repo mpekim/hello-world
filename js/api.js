@@ -139,7 +139,7 @@ function updateItem(data)
 }
 
 function errorMessage(value){
-    switch(value){
+    switch(Number(value)){
         case 200:
             return("No errors!");
         case 201:
