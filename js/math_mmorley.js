@@ -5,15 +5,15 @@
 // Post-Condition: The fibonacci sequence up to "n" is displayed.
 function fibonacci(n)
 {
-    if (n === 0)
+    if (Number(n) === 0)
     {
-        // Base case 1.
+        // Base case 0.
         return 1;
     }
 
-    if (n === 1)
+    if (Number(n) === 1)
     {
-        // Base case 2.
+        // Base case 1.
         return 1;
     }
     return fibonacci(n-1) + fibonacci(n-2);
@@ -33,11 +33,11 @@ function powerRule(coef, power)
 // value is returned.
 function factorial(n)
 {
-    if (n === 0){
+    if (Number(n) === 0){
         return 1;
     }
 
-    if (n === 1){
+    if (Number(n) === 1){
         return 1;
     }
     else{
