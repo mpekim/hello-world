@@ -7,10 +7,6 @@
         <meta name="author" content="Mike Morley">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css" />
-
-        <!--script type = "text/javascript" src="js/api.js"></script-->
-        <script type = "text/javascript" src="js/main.js"></script>
-        <!--script type = "text/javascript" src="js/math_mmorley.js"></script-->
     </head>
     <body id="body">
         <div class="ideMain">
@@ -45,10 +41,22 @@
         </div>
         <div class="ide">
             <form onSubmit="return sendInput()">
+                <select>
+                    <option name="Select Language" required="true">C</option>
+                    <option>C</option>
+                    <option>C++</option>
+                    <option>C#</option>
+                    <option>Java</option>
+                    <option>Javascript</option>
+                    <option>Python</option>
+                </select>
                 <input type="text" id="color" placeholder="Change Color">
                 </br>
                 <input type="submit" class="codeButtonGreen" onclick="sendInput()">
             </form>
         </div>
+        <!--script type="text/javascript" src="js/api.js"></script-->
+        <script type = "text/javascript" src="js/main.js"></script>
+        <!--script type="text/javascript" src="js/math_mmorley.js"></script-->
     </body>
 </html>
