@@ -203,11 +203,14 @@ function convertToJSobject(obj){
 let message = (input) => console.log("Hello " + input);
 // ES6 Arrow functions. Basic practice.
 
-let sendInput = () => {
+let sendColorInput = () => {
     let body = document.getElementById('body');
-    let background = document.getElementById('color').value;
+    let background = document.getElementById('code').value;
     body.style.background = background;
+    return (false);
+}
 
+let basicOutput = () => {
     let output = document.getElementById('output-text');
     output.textContent = "Code Submitted: " + background;
     return (false);
