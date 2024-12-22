@@ -56,6 +56,22 @@ div.ideBug{
     font-family: Arial;
 }
 
+div.ideBug div.major{
+    background-color: #FF0000;
+
+    font-weight: bold;
+}
+
+div.ideBug div.minor{
+    background-color: #FF7733;
+    
+    font-style: italic;
+}
+
+div.ideBug div.warning{
+    background-color: #FFFF00;
+}
+
 div.ideOutput{
     display: grid;
     grid-template-areas:
@@ -68,22 +84,6 @@ div.ideOutput{
     text-align: center;
 
     font-family: Helvetica;
-}
-
-div.major{
-    background-color: #FF0000;
-
-    font-weight: bold;
-}
-
-div.minor{
-    background-color: #FF7733;
-    
-    font-style: italic;
-}
-
-div.warning{
-    background-color: #FFFF00;
 }
 
 div.ide{
@@ -129,4 +129,45 @@ input.codeButtonGreen{
     font-family: Georgia;
 
     border-radius: 45px;
+}
+
+@media(prefers-reduced-motion: no-preference){
+    div.ideBug div.major:hover{
+        animation: pulse-major infinite 1s linear;
+    }
+
+    button.codeButtonGreen:hover{
+        animation: pulse-button infinite 1s linear;
+    }
+
+    div.ide form input.codeButtonGreen:hover{
+        animation: pulse-button infinite 1s linear;
+    }
+}
+
+@keyframes pulse-major{
+    0%{
+        background-color: #FF0000;
+    }
+    50%{
+        background-color: #770000;
+    }
+    100%{
+        background-color: #FF0000;
+    }
+}
+
+@keyframes pulse-button{
+    0%{
+        color: #32cd32;
+        background-color: #666666;
+    }
+    50%{
+        color: #008900;
+        background-color: #111111;
+    }
+    100%{
+        color: #32cd32;
+        background-color: #666666;
+    }
 }
