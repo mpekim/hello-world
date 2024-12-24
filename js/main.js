@@ -212,7 +212,11 @@ let sendColorInput = () => {
 
 let basicOutput = () => {
     let output = document.getElementById('output-text');
-    output.textContent = "Code Submitted: " + background;
+    let code = document.getElementById('code').value;
+    let language = document.getElementById('language').value;
+
+    output.innerHTML = "Language Selected: "
+    + language + "<br>" + "Code Submitted: " + code;
     return (false);
 }
 

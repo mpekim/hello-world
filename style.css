@@ -1,45 +1,35 @@
 button.codeButtonGreen{
     color: #32cd32;
     background-color: #666666;
-
     font-weight: bold;
     font-family: Georgia;
-
     border-radius: 45px;
 }
 
 button.codeButtonRed{
     color: #FF0000;
     background-color: #000000;
-
     font-weight: bold;
     font-family: Arial;
-
     border-radius: 45px;
 }
 
 button.codeButtonBlue{
     color: #0000FF;
     background-color: #000000;
-
     font-weight: bold;
     font-family: Arial;
-
     border-radius: 45px;
 }
 
 div.ideMain{
     background-color: #ACACAC;
-
     border: solid;
     border-color: #000000;
     border-width: 5px;
-
     position: relative;
     text-align: center;
-
     font-family: Arial;
-
     align-items: center;
 }
 
@@ -50,21 +40,17 @@ div.ideBug{
     border: solid;
     border-color: #000000;
     border-width: 3px;
-
     text-align: center;
-
     font-family: Arial;
 }
 
 div.ideBug div.major{
     background-color: #FF0000;
-
     font-weight: bold;
 }
 
 div.ideBug div.minor{
     background-color: #FF7733;
-    
     font-style: italic;
 }
 
@@ -76,13 +62,10 @@ div.ideOutput{
     display: grid;
     grid-template-areas:
     "output output";
-
     border: solid;
     border-color: #00CCFF;
     border-width: 3px;
-
     text-align: center;
-
     font-family: Helvetica;
 }
 
@@ -124,10 +107,8 @@ div.ide form textarea.ide::placeholder{
 input.codeButtonGreen{
     color: #32cd32;
     background-color: #666666;
-
     font-weight: bold;
     font-family: Georgia;
-
     border-radius: 45px;
 }
 
@@ -137,11 +118,14 @@ input.codeButtonGreen{
     }
 
     button.codeButtonGreen:hover{
-        animation: pulse-button infinite 1s linear;
+        animation: pulse-button-green infinite 1s linear;
     }
 
     div.ide form input.codeButtonGreen:hover{
-        animation: pulse-button infinite 1s linear;
+        animation: pulse-button-green infinite 1s linear;
+    }
+    button.codeButtonRed:hover{
+        animation: pulse-button-red infinite 1s linear;
     }
 }
 
@@ -157,7 +141,7 @@ input.codeButtonGreen{
     }
 }
 
-@keyframes pulse-button{
+@keyframes pulse-button-green{
     0%{
         color: #32cd32;
         background-color: #666666;
@@ -169,5 +153,20 @@ input.codeButtonGreen{
     100%{
         color: #32cd32;
         background-color: #666666;
+    }
+}
+
+@keyframes pulse-button-red{
+    0%{
+        color: #FF0000;
+        background-color: #000000;
+    }
+    50%{
+        color: #770000;
+        background-color: #000000;
+    }
+    100%{
+        color: #FF0000;
+        background-color: #000000;
     }
 }
