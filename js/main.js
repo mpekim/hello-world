@@ -220,6 +220,8 @@ let basicOutput = () => {
     return (false);
 }
 
+// Pre-Condition: This function has no inputs.
+// Post-Condition: The page will be refreshed.ks
 function refreshPage(){
     window.location.reload();
 }
