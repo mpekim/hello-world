@@ -33,14 +33,17 @@ function powerRule(coef, power)
 // value is returned.
 function factorial(n)
 {
-    if (Number(n) === 0){
+    if (Number(n) === 0)
+    {
         return 1;
     }
 
-    if (Number(n) === 1){
+    if (Number(n) === 1)
+    {
         return 1;
     }
-    else{
+    else
+    {
         return n * factorial(n-1);
     }
 }
